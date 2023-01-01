@@ -19,7 +19,7 @@ html {
 body {
     background-color: var(--cream);
     font-family: var(--fuente2);
-    font-size: 1.8rem;
+    /* font-size: 1.2rem; */
 }
 
 /*--Globales--*/
@@ -31,7 +31,7 @@ a {
 }
 
 h1, h3, p, a {
-    padding-left: 2rem;
+    padding-left: 3rem;
     padding-right: 3rem;
 }
 
@@ -47,7 +47,7 @@ h1, h3, p, a {
 @media (min-width: 960px) {
     .contenedor {
         grid-template-columns: 1fr 1fr;
-        margin: 20% 22%;
+        margin: 10% 30%;
     }
 }
 
@@ -73,13 +73,13 @@ h1, h3, p, a {
 .titulo {
     font-family: var(--fuente1);
     color: var(--Verydarkblue); 
-    font-size: 3.2rem;
+    font-size: 3rem;
     font-weight: 700;  
 }
 
 @media (min-width: 1366px) {
     .titulo {
-        font-size: 4rem;
+        font-size: 2.8rem;
     }
 }
 
@@ -91,13 +91,21 @@ h3, p {
 
 h3 {
     text-transform: uppercase;
-    letter-spacing: 0.8rem;
-    padding-top: 2rem;
+    letter-spacing: 0.5rem;
+    padding-top: 1.5rem;
     font-weight: 100;
 }
 
 .informacion__des {
-    line-height: 1.5;
+    line-height: 1.7;
+    font-size: 1.2rem;
+    margin-bottom: 0rem;
+}
+
+.parrafo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
 .precio1 {
@@ -113,14 +121,19 @@ h3 {
 /*--boton--*/
 
 .buton-compra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--dark);
-    padding: 2rem;
-    margin: 2rem 3rem 3rem 2rem;
+    padding: 1.3rem;
+    margin: 2rem 2rem 2rem 2rem;
     border-radius: 1rem;
     text-align: center;
 }
 
-
+a.boton {
+    padding: 0px 10px;
+}
 
 
 .attribution {
